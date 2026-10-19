@@ -1,0 +1,5 @@
+data.db
+.venv/
+__pycache__/
+notes.md
+notes.txt
