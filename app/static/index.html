@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1f6f5c">
+  <title>To'lovlar hisobi</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>To'lovlar hisobi</h1>
+    <a class="topbar-link" href="/docs">API</a>
+  </header>
+
+  <main>
+    <section class="card" aria-labelledby="debtors-title">
+      <div class="section-head">
+        <h2 id="debtors-title">Qarzdorlar</h2>
+        <span id="debtors-count" class="badge" hidden></span>
+      </div>
+      <label class="field">
+        <span>Oy</span>
+        <input id="month" type="month" required>
+      </label>
+      <p id="debtors-status" class="muted" role="status">Yuklanmoqda…</p>
+      <ul id="debtors" class="debtor-list"></ul>
+    </section>
+
+    <section class="card" aria-labelledby="pay-title" id="pay-section">
+      <h2 id="pay-title">To'lov qo'shish</h2>
+      <form id="pay-form" novalidate>
+        <label class="field">
+          <span>O'quvchi</span>
+          <select id="student" name="student_id" required>
+            <option value="">Yuklanmoqda…</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Summa, so'm</span>
+          <input id="amount" name="amount" type="text" inputmode="decimal"
+                 autocomplete="off" placeholder="500000" required>
+        </label>
+        <label class="field">
+          <span>Sana</span>
+          <input id="paid-on" name="paid_on" type="date" required>
+        </label>
+        <button id="submit" type="submit" class="btn">Saqlash</button>
+        <p id="form-message" class="message" role="alert" hidden></p>
+      </form>
+      <p class="muted small">O'quvchi qo'shish va tahrirlash — <a href="/docs">/docs</a> orqali.</p>
+    </section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
