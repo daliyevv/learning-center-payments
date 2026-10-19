@@ -10,7 +10,7 @@ API учеников и оплат, запрос «должники за мес�
 
 **macOS / Linux**
 ```bash
-git clone <repo-url> && cd <repo-dir>
+git clone https://github.com/daliyevv/learning-center-payments.git && cd learning-center-payments
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -19,7 +19,7 @@ uvicorn app.main:app --reload
 
 **Windows (PowerShell)**
 ```powershell
-git clone <repo-url>; cd <repo-dir>
+git clone https://github.com/daliyevv/learning-center-payments.git; cd learning-center-payments
 python -m venv .venv
 .venv\Scripts\Activate.ps1      # в cmd.exe: .venv\Scripts\activate.bat
 pip install -r requirements.txt

@@ -28,7 +28,7 @@ Belgilar: `[x]` bajarildi, `[ ]` bajarilmadi. Har bir band yonida — qayerda te
 - [x] Telefonda qulay (mobile-first) — 390px mobil emulyatsiya: gorizontal scroll yo'q, tegish o'lchami ≥ 48px. Haqiqiy telefonda sinalmagan
 
 ## 3-qism. README
-- [x] Noldan ishga tushirish (buyruqlar) — `<repo-url>` repo yaratilgach almashtiriladi
+- [x] Noldan ishga tushirish (buyruqlar)
 - [x] "Yana bir hafta bo'lsa" — 3–5 band
 
 ## 4-qism. AI haqida (chatga matn, 5–8 gap — repoda emas)
@@ -37,7 +37,7 @@ Belgilar: `[x]` bajarildi, `[ ]` bajarilmadi. Har bir band yonida — qayerda te
 - [ ] Kodning qaysi qismini o'zim yozdim, qaysini AI yaratdi
 
 ## Yuborish (Telegram @code_debugger007)
-- [ ] GitHub repozitoriy havolasi (ochiq yoki kirish berilgan)
+- [x] GitHub repozitoriy havolasi — https://github.com/daliyevv/learning-center-payments
 - [ ] 4-qism matni
 - [ ] Sarflangan soatlar
 
